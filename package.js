@@ -1,12 +1,12 @@
 Package.describe({
 	summary: "Bottomline api packaged for Meteor",
-	version: "0.0.2",
+	version: "0.0.3",
 	git: "http://github.com/ecwyne/meteor-bottomline",
 	name: 'ecwyne:bottomline'
 });
 
 Npm.depends({
-	bottomline: '0.0.2'
+	bottomline: '0.0.3'
 })
 
 Package.onUse(function(api) {
